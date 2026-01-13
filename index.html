@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry, My Love ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="header">
+                <h1>💕 I'm Sorry 💕</h1>
+                <p class="subtitle">Please don't be angry with me...</p>
+            </div>
+
+            <div class="content">
+                <div class="message-box">
+                    <p class="intro-text">You mean everything to me, and seeing you angry makes my heart ache. 
+                    I want to make things right. Please forgive me and let me know how I can make it better.</p>
+                </div>
+
+                <div class="shayari-section">
+                    <h2>📝 Shayari For You</h2>
+                    <div class="shayari-box">
+                        <p id="shayari-text">
+                            तुम रूठ जाती हो तो दिल घबरा सा जाता है,<br>
+                            तुम्हारी ख़ामोशी में भी बहुत कुछ कह जाता है।<br>
+                            <br>
+                            गलती मेरी थी, ये मैं आज भी मानता हूँ,<br>
+                            पर तुमसे दूर रहना, ये मैं नहीं जानता हूँ।<br>
+                            <br>
+                            एक बार मुस्कुरा दो, सब कुछ ठीक हो जाएगा,<br>
+                            तुम्हारे साथ ही हर लम्हा फिर खास बन जाएगा।<br>
+                            <br>
+                            बस साथ निभाना, यही दिल से चाहता हूँ। 💖
+                        </p>
+                    </div>
+                </div>
+
+                <div class="image-placeholder">
+                    <h3>🖼️ Your Beautiful Photo</h3>
+                    <div class="photo-box">
+                        <input type="file" id="photo-input" accept="image/*" onchange="loadImage(event)">
+                        <img id="photo-display" src="love.jpeg" alt="Your beautiful photo">
+                        <p id="placeholder-text" style="display:none;">Click to upload your beautiful photo 📸</p>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="btn btn-primary" onclick="showMessage()">💕 I Love You</button>
+                    <button class="btn btn-secondary" onclick="clearImage()">Clear Photo</button>
+                </div>
+
+                <div id="heart-message" class="heart-message" style="display:none;">
+                    <p>❤️ You're my everything ❤️</p>
+                    <p class="love-text">Forever yours... 💕</p>
+                </div>
+            </div>
+
+            <div class="hearts">
+                <span class="heart">❤️</span>
+                <span class="heart">💕</span>
+                <span class="heart">❤️</span>
+                <span class="heart">💕</span>
+                <span class="heart">❤️</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
